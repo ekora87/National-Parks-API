@@ -1,4 +1,63 @@
 * {
     box-sizing: border-box;
 }
+body {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+label {
+    margin: 0 20px;
+}
+.input-box {
+    margin: 20px 0;
+}
+
+  form {
+      margin-top: 20px;
+  }
+
+  .result-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+  .each-result {
+      width: 30%;
+      text-align: center;
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin: 10px 0;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+  }
+
+.result-list {
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: block;
+    margin: 5px 0;
+}
+
+.park-url{
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+.not-found-image{
+    width: 400px;
+    height: 400px;
+}
 
